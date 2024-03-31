@@ -1,0 +1,10 @@
+{
+    "name": "mix-track-identifier",
+    "image": "mcr.microsoft.com/devcontainers/python:3.12",
+    "features": {
+        "ghcr.io/devcontainers-contrib/features/poetry:2": {},
+        "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+            "packages": "ffmpeg"
+        }
+    }
+}
