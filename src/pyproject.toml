@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mix-track-identifier"
+version = "0.1.0"
+description = ""
+authors = ["Jam Girl <junk@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+shazamio = "^0.5.1"
+scdl = "^2.7.5"
+pytube = "^15.0.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.4"
+pre-commit = "^3.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
